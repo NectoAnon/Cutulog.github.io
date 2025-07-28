@@ -1,0 +1,63 @@
+body {
+ margin: 0;
+ padding: 0;
+ font-size: 18px;
+ color: var(--tg-theme-text-color);
+ background: var(--tg-theme-bg-color);
+}
+
+.container {
+    max-width: 390px;
+    display: grid;
+    place-items: center;
+    height: 300px;
+
+
+   }
+
+
+
+
+.blok{
+
+display: block;
+
+}
+
+.png1{
+
+    width: 100px;
+  height: 50px;
+  border: none;
+  background-image: url('1.png');
+  background-size: cover;
+
+
+  color: red;
+}
+.png1:hover{
+    opacity: 0.8;
+}
+.png1:active{
+
+    transform: scale(0.95);
+
+}
+
+
+
+.png2{
+
+    width: 100px;
+  height: 50px;
+  border: none;
+  background-image: url('1.png');
+  background-size: cover;
+
+}
+
+
+
+
+
+
