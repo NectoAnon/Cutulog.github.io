@@ -83,7 +83,7 @@ margin-left: 20px;
     display: inline-block;
     align-items: end;
     position: absolute;
-    right: 0px;
+    right: 20px;
     }
 .btn {
     padding: 10px 20px;
@@ -104,6 +104,7 @@ margin-left: 20px;
     
     background: rgb(248, 168, 24);
    }
+
 
 
 
