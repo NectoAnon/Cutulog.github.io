@@ -1,5 +1,5 @@
 body {
- 
+    max-width: 390px;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -104,6 +104,7 @@ margin-left: 20px;
     
     background: rgb(248, 168, 24);
    }
+
 
 
 
