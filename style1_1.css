@@ -1,0 +1,134 @@
+body {
+ 
+  overflow-x: hidden;
+  margin: 0;
+  margin-bottom: 76px;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600; 
+  background: #1A1A1A;
+  color:white;
+ }
+
+   .menu{
+ 
+    position: fixed;
+    z-index: 10;
+    left: 10px;
+    top: 10px;
+    padding: 0px;
+    margin: 0px;
+    animation: none !important;
+    border: 2px solid #BF00FF; 
+    box-shadow: 0 0 10px #BF00FF, 0 0 20px #BF00FF; 
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    
+   }
+.container{
+
+    position: relative;
+    max-width: 390px;
+    width: 390px;
+}
+
+
+
+.slider-container { /* Контейнер слайдера */
+    overflow-x: hidden;
+    padding: 0px;
+    width: 380px;
+    height: 500px;
+    overflow-x: auto; /* Горизонтальная прокрутка */
+    scroll-snap-type: x mandatory; /* "Прилипание" к элементам */
+    display: flex;
+    max-width: 390px;
+    margin: auto;
+  }
+
+  .slider-item {  /* Элемент слайда */
+    width: 380px;
+    height: 500px;
+    flex: none; /* Запрет сжатия/растяжения */
+    scroll-snap-align: start; /* Выравнивание при "прилипании" */
+    position: relative;
+    
+  }
+  
+
+  .slider-item video { /* Видео */
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;  Масштабирование с обрезкой */
+    
+  }
+
+
+.info{
+
+word-wrap: break-word;
+/*width: 370px;*/
+margin: auto;
+font-size: 18px;
+
+}
+.ot{
+
+  margin-left: 20px;
+
+}
+
+.b1{
+position: fixed;
+width: 180px;
+height: 50px;
+left: 105px;
+bottom: 20px;
+}
+.b2{
+    position: fixed;
+    height: 50px;
+    align-items: end;
+    bottom: 20px;
+    right: 20px;
+    }
+
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    background: #BF00FF;
+    border: 2px solid #BF00FF; 
+    box-shadow: 0 0 10px #BF00FF, 0 0 20px #BF00FF; 
+    font-size: 20px;
+    
+    
+
+    
+   }
+   
+.gr_btn{
+  position: fixed;
+  background-color:#1A1A1A;
+  width: 390px;
+  height: 76px;
+  bottom: 0px;
+}
+
+
+
+.png{
+
+  display: inline-block;
+   width: 15px; 
+   height: 15px;
+   margin-left:20px;
+
+}
