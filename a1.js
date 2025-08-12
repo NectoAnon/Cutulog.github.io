@@ -4,7 +4,7 @@ const webApp = Telegram.WebApp;
         webApp.expand(); // Раскрываем на весь экран
         webApp.enableClosingConfirmation(); // Запрос подтверждения при закрытии
 
-        document.getElementById('sendBtn').addEventListener('click', () => {
+        document.getElementById('game_1').addEventListener('click', () => {
             // Отправляем данные в бота (они придут в web_app_data)
             webApp.sendData("Привет, это сообщение из WebApp!");
             
@@ -15,4 +15,5 @@ const webApp = Telegram.WebApp;
         // Обработчик события закрытия (опционально)
         webApp.onEvent('closeButtonClicked', () => {
             console.log('WebApp закрывается');
+
         });
