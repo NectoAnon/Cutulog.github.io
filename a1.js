@@ -1,3 +1,24 @@
-var WebApp = window.Telegram.WebApp;
+let tg = window.Telegram.WebApp;
 
-WebApp.showAlert('Даров брат');
+tg.expand();
+
+
+
+let item = "";
+
+let game_1 = document.getElementById("game_1");
+
+
+game_1.addEventListener("click", function(){
+  tg.sendData("some string that we need to send");
+  item = "1";
+ });
+
+
+
+ /*window.Telegram.WebApp.sendData(item);  */
+
+Telegram.WebApp.onEvent("mainButtonClicked", function(){
+ tg.sendData(item);
+});
+
