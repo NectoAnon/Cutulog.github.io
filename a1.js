@@ -9,10 +9,13 @@ let item = "";
 let game_1 = document.getElementById("game_1");
 
 
+
+
 game_1.addEventListener("click", function(){
-  tg.sendData("some string that we need to send");
-  
+  item = "11";
+  tg.sendData(item);
  });
+
 
 
 
