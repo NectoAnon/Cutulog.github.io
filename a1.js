@@ -12,9 +12,14 @@ let game_1 = document.getElementById("game_1");
 
 
 game_1.addEventListener("click", function(){
-  item = "game_1";
-  tg.sendData(item);
+ const item = "game_1";
+  
+
+
+ localStorage.setItem('nameTovar', item)
+
  });
+
 
 
 
