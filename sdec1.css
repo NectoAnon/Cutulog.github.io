@@ -1,0 +1,65 @@
+body {
+ 
+    overflow-x: hidden;
+    margin: 0;
+    margin-bottom: 76px;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600; 
+    background: #1A1A1A;
+    color:white;
+   }
+  
+     .menu{
+   
+      position: fixed;
+      z-index: 10;
+      left: 10px;
+      top: 10px;
+      padding: 0px;
+      margin: 0px;
+      animation: none !important;
+      border: 2px solid #BF00FF; 
+      box-shadow: 0 0 10px #BF00FF, 0 0 20px #BF00FF; 
+      width: 80px;
+      height: 40px;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 20px;
+      background-color: black;
+      color: #fff;
+      
+     }
+  .container{
+  
+      position: relative;
+      max-width: 390px;
+      width: 390px;
+  }
+  
+  
+  
+  
+  
+
+
+  .btn {
+    margin: auto;
+    width: 280px;
+    height: 160px;
+    display: block;
+    margin-top: 54px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #fff;
+    background: #BF00FF;
+    border: 2px solid #BF00FF; 
+    box-shadow: 0 0 10px #BF00FF, 0 0 20px #BF00FF; 
+    font-size: 20px;
+    text-align: center;  
+      
+  
+      
+     }
+     
